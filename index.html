@@ -370,20 +370,34 @@
 	</main>
 	
 	<!-- End main content -->	
-			
+	<!-- WhatsHelp.io widget -->
+	<script type="text/javascript">
+		(function () {
+			var options = {
+				facebook: "1020014091537564", // Facebook page ID
+				whatsapp: "+60176364083", // WhatsApp number
+				call_to_action: "Contact us NOW!", // Call to action
+				button_color: "#FF6550", // Color of button
+				position: "right", // Position may be 'right' or 'left'
+				order: "facebook,whatsapp", // Order of buttons
+			};
+			var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+			var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+			s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+			var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+		})();
+	</script>
+	<!-- /WhatsHelp.io widget -->
 			
 	<!-- Start footer -->
 	<footer id="mu-footer" role="contentinfo">
-			<div class="container">
-				<div class="mu-footer-area">
-					<p>&copy; Copyright Wyonix.com. All right reserved.</p>
-				</div>
+		<div class="container">
+			<div class="mu-footer-area">
+				<p>&copy; Copyright Wyonix.com. All right reserved.</p>
 			</div>
-
+		</div>
 	</footer>
 	<!-- End footer -->
-	
-	<script src="https://app.rocketbots.io/facebook/chat/plugin/6797/1020014091537564" async></script>
 	
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

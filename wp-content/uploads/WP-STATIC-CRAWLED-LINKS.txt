@@ -1,9 +1,0 @@
-/
-/favicon.ico
-/robots.txt
-/comments/feed/
-/feed/
-/wp-content/cache/et/23/et-core-unified-15701172778021.min.css
-/wp-content/themes/Divi/core/admin/js/common.js
-/wp-content/themes/Divi/js/custom.min.js
-/wp-content/themes/Divi/style.css
